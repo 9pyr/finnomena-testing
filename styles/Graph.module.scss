@@ -1,0 +1,22 @@
+.graph_styled {
+  margin-bottom: 10px;
+}
+
+.tooltip_custom {
+  font-size: 1rem;
+  padding: 10px;
+
+  div {
+    display: flex;
+    padding: 4px 0;
+  }
+}
+
+.text_highlight {
+  color: #1890ff;
+}
+
+.title,
+.text_highlight {
+  margin-left: 4px;
+}

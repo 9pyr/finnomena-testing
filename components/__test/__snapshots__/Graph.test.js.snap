@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Graph Component render has props 1`] = `
+<div>
+  <div
+    class="graph_styled"
+  >
+    <div
+      data-chart-source-type="G2Plot"
+      style="height: inherit;"
+    >
+      <div
+        style="position:relative;"
+      >
+        <svg
+          height="200"
+          style="width: 400px; height: 200px; display: inline-block; vertical-align: middle;"
+          width="400"
+        >
+          <defs
+            id="defs_1"
+          >
+            <lineargradient
+              id="gradient_1"
+              x1="0"
+              x2="-1.8369701987210294e-16"
+              y1="1"
+              y2="1.1102230246251565e-16"
+            >
+              <stop
+                offset="0"
+                stop-color="#ffffff"
+              />
+              <stop
+                offset="0.5"
+                stop-color="#7ec2f3"
+              />
+              <stop
+                offset="1"
+                stop-color="#1890ff"
+              />
+            </lineargradient>
+            <clippath
+              id="clip_1"
+            >
+              <path
+                d="M -20,-20 l 0,0 l 0,240 l0 0 z"
+                fill-opacity="1"
+                opacity="1"
+                stroke-opacity="1"
+                stroke-width="1"
+              />
+            </clippath>
+            <clippath
+              id="clip_2"
+            >
+              <path
+                d="M -20,-20 l 0,0 l 0,240 l0 0 z"
+                fill-opacity="1"
+                opacity="1"
+                stroke-opacity="1"
+                stroke-width="1"
+              />
+            </clippath>
+          </defs>
+          <g
+            opacity="1"
+          >
+            <path
+              d="M 0,0 l 400,0 l 0,200 l-400 0 z"
+              fill="transparent"
+              fill-opacity="1"
+              opacity="1"
+              stroke="none"
+              stroke-opacity="1"
+              stroke-width="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            >
+              <g
+                opacity="1"
+              >
+                <g
+                  opacity="1"
+                />
+              </g>
+              <g
+                opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+            />
+          </g>
+          <g
+            opacity="1"
+          >
+            <g
+              clip-path="url(#clip_1)"
+              opacity="1"
+            >
+              <path
+                d="M 50 12.997074999999995C 50 12.997074999999995 110.04889006007913 12.997074999999995 150 13.00007500000001C 190.04889006007915 13.003082342483397 210.13687218137693 15.876191976407826 250 20.000775000000004C 290.13687218137693 24.153681976407825 350 33.69380000000001 350 33.69380000000001L 350 200C 350 200 290 200 250 200C 210 200 190 200 150 200C 110 200 50 200 50 200Z"
+                fill="url(#gradient_1)"
+                fill-opacity="0.25"
+                opacity="1"
+                stroke="none"
+                stroke-opacity="1"
+                stroke-width="1"
+              />
+            </g>
+            <g
+              clip-path="url(#clip_2)"
+              opacity="1"
+            >
+              <path
+                d="M 50 12.997074999999995C 50 12.997074999999995 110.04889006007913 12.997074999999995 150 13.00007500000001C 190.04889006007915 13.003082342483397 210.13687218137693 15.876191976407826 250 20.000775000000004C 290.13687218137693 24.153681976407825 350 33.69380000000001 350 33.69380000000001"
+                fill="none"
+                fill-opacity="1"
+                opacity="1"
+                stroke="#5B8FF9"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-opacity="1"
+                stroke-width="2"
+              />
+            </g>
+          </g>
+          <g
+            opacity="1"
+          >
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Graph Component render has props by customContent function 1`] = `
+<div>
+  <div
+    class="tooltip_custom"
+  >
+    <div>
+      ชื่อกองทุน: 
+      <span
+        class="title"
+      >
+        title_test
+      </span>
+    </div>
+    <div>
+      ผลตอบแทน: 
+      <span
+        class="text_highlight"
+      >
+        value_test
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Graph Component render has props undefined by customContent function 1`] = `
+<div>
+  <div
+    class="tooltip_custom"
+  >
+    <div>
+      ชื่อกองทุน: 
+      <span
+        class="title"
+      />
+    </div>
+    <div>
+      ผลตอบแทน: 
+      <span
+        class="text_highlight"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Graph Component render is props undefined 1`] = `
+<div>
+  <div
+    class="graph_styled"
+  >
+    <div
+      data-chart-source-type="G2Plot"
+      style="height: inherit;"
+    >
+      <div
+        style="position:relative;"
+      >
+        <svg
+          height="200"
+          style="width: 400px; height: 200px; display: inline-block; vertical-align: middle;"
+          width="400"
+        >
+          <defs
+            id="defs_2"
+          >
+            <clippath
+              id="clip_3"
+            >
+              <path
+                d="M -20,-20 l 0,0 l 0,240 l0 0 z"
+                fill-opacity="1"
+                opacity="1"
+                stroke-opacity="1"
+                stroke-width="1"
+              />
+            </clippath>
+            <clippath
+              id="clip_4"
+            >
+              <path
+                d="M -20,-20 l 0,0 l 0,240 l0 0 z"
+                fill-opacity="1"
+                opacity="1"
+                stroke-opacity="1"
+                stroke-width="1"
+              />
+            </clippath>
+          </defs>
+          <g
+            opacity="1"
+          >
+            <path
+              d="M 0,0 l 400,0 l 0,200 l-400 0 z"
+              fill="transparent"
+              fill-opacity="1"
+              opacity="1"
+              stroke="none"
+              stroke-opacity="1"
+              stroke-width="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            >
+              <g
+                opacity="1"
+              >
+                <g
+                  opacity="1"
+                />
+              </g>
+              <g
+                opacity="1"
+              />
+            </g>
+            <g
+              opacity="1"
+            />
+          </g>
+          <g
+            opacity="1"
+          >
+            <g
+              clip-path="url(#clip_3)"
+              opacity="1"
+            />
+            <g
+              clip-path="url(#clip_4)"
+              opacity="1"
+            />
+          </g>
+          <g
+            opacity="1"
+          >
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+            <g
+              opacity="1"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import './color.scss';
+@import './variable.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  background: $container-color;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav .title {
+  display: flex;
+  justify-content: center;
+
+  padding: 6px;
+  width: 100%;
+  font-size: 1.5rem;
+  border-radius: 0 0 $radius-card $radius-card;
+  max-width: $container-width;
+
+  background: $background-item;
+}
